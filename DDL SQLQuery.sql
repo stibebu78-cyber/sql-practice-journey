@@ -16,10 +16,23 @@ FROM dbo.persons*/
 
 /*ALTER. EXAMPLE- ADD A NEW COLUMN CALLED TO A PERSONS TABLE*/
 
-ALTER TABLE dbo.persons
+/*ALTER TABLE dbo.persons
 ADD email VARCHAR(50) NOT NULL
 
 SELECT *
-FROM dbo.persons
+FROM dbo.persons*/
+
+/* HOW TO BRING THE EMAIL COLUMN TO THE MIDDLE NEXT TO PERSONS NAME?*/
+  
+/*REMOVE - EXAMPLE remove the column phon from the persons table*/ 
+
+/*ALTER TABLE dbo.persons
+DROP COLUMN phone
+
+SELECT *
+FROM dbo.persons*/
 
 
+/*DELET - Delet the table persons from the data base*/
+
+DROP TABLE dbo.persons
