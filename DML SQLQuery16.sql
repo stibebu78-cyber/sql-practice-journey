@@ -4,41 +4,41 @@
 Or inserting additional rows to an existing table. 
 before you enter NULL check weather the data base alow NULL*/
 
-/*INSERT INTO dbo.customers(id, first_name, country, score)
+INSERT INTO dbo.customers(id, first_name, country, score)
 VALUES
 (6,'Solomon','Ethiopia', NULL),
-(7,'Amanuel',NULL, 400)*/
+(7,'Amanuel',NULL, 400)
 
 
 /*select the following syntax and then click excute to see the table with 7 rows, 
 otherwise it throws error*/
 
-/*SELECT *
-FROM dbo.customers*/
+SELECT *
+FROM dbo.customers
 
-/*INSERT INTO dbo.customers(id, first_name, country, score)
+INSERT INTO dbo.customers(id, first_name, country, score)
 VALUES
 (8,'Mahelet','Ethiopia', 770)
 
 SELECT *
-FROM dbo.customers*/
+FROM dbo.customers
 
-/*Mentioning the columon names is optional*/
+/*Mentioning the columon names is optional. example:*/
 
-/*INSERT INTO dbo.customers
+INSERT INTO dbo.customers
 VALUES
 (9,'Mihrtab', NULL, 1000)
 
 SELECT *
-FROM dbo.customers*/
+FROM dbo.customers
 
 /*if you want to insert values only in 2 columns instead of 4*/
-/*INSERT INTO dbo.customers(id,first_name)
+INSERT INTO dbo.customers(id,first_name)
 VALUES
 (10,'Meseret')
 
 SELECT *
-FROM dbo.customers*/
+FROM dbo.customers
 
 
 /*INSERTING DATA FROM ANOTHER TABLE INSTEAD OF MANUALLY.
