@@ -67,3 +67,5 @@ FROM dbo.customers
 
 SELECT *
 FROM dbo.persons
+
+/*UPDATE*/
