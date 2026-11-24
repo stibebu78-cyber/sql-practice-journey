@@ -32,5 +32,32 @@ WHERE country IS NULL
 
 SELECT *
 FROM dbo.customers
+WHERE country = 'Keneya'
+
+
+/*DELETE A ROW FROM A TABLE */
+
+DELETE FROM dbo.customers
+WHERE id =10
+
+SELECT *
+FROM dbo.customers
+
+/*DELETE ALL CUSTOMERS WITH ID > 5*/
+DELETE dbo.customers
+WHERE id >5
+
+SELECT *
+FROM dbo.customers
+
+/*DELETE DATA FROM PERSONS TABLE*/
+
+SELECT *
+FROM dbo.persons
+-- use delete for small table
+-- TRUNCATE for large tables
+
+TRUNCATE TABLE dbo.persons
+
 
 
